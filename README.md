@@ -1,3 +1,5 @@
+[![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/initial-commit/README.md)](https://github.com/scriptex/initial-commit/)
+
 # Initial Commit
 
 A starter template for a git repository.
