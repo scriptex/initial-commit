@@ -16,7 +16,6 @@ node_modules/
 .Trashes
 ehthumbs.db
 Thumbs.db
-webpack-mpa.svg
 
 # EditorConfig
 .editorconfig
@@ -30,3 +29,17 @@ webpack-mpa.svg
 
 # lock files
 yarn.lock
+
+# Prettier
+.prettierrc
+.prettierignore
+
+# Config files
+.babelrc
+renovate.json
+tslint.json
+ts-config.json
+postcss.config.js
+webpack.config.js
+
+# Project specific
