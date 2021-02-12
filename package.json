@@ -3,9 +3,9 @@
 	"version": "1.0.1",
 	"description": "Starting template for repository",
 	"scripts": {
-		"release-minor": "release-it minor --ci && yarn changelog-local",
-		"release-patch": "release-it patch --ci && yarn changelog-local",
-		"release-major": "release-it major --ci && yarn changelog-local",
+		"release-minor": "release-it minor --ci",
+		"release-patch": "release-it patch --ci",
+		"release-major": "release-it major --ci",
 		"changelog-local": "npx auto-changelog"
 	},
 	"keywords": [],
@@ -24,7 +24,9 @@
 	"main": "index.js",
 	"private": true,
 	"release-it": {
-		"hooks": {},
+		"hooks": {
+			"after:bump": "yarn changelog-local"
+		},
 		"git": {
 			"changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
 			"requireCleanWorkingDir": true,
