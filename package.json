@@ -25,7 +25,8 @@
 	"private": true,
 	"release-it": {
 		"hooks": {
-			"after:bump": "yarn changelog-local"
+			"after:bump": "yarn changelog-local",
+			"after:release": "git add . && git commit -m \"Update CHANGELOG.md with the latest changes\" && git push"
 		},
 		"git": {
 			"changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
