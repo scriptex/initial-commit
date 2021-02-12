@@ -1,6 +1,6 @@
 {
 	"name": "initial-commit",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Starting template for repository",
 	"scripts": {
 		"release-minor": "release-it minor --ci",
@@ -25,8 +25,7 @@
 	"private": true,
 	"release-it": {
 		"hooks": {
-			"after:bump": "yarn changelog-local",
-			"after:release": "git add . && git commit -m \"Update CHANGELOG.md with the latest changes\" && git push"
+			"after:release": "yarn changelog-local && git add . && git commit -m \"Update CHANGELOG.md with the latest changes\" && git push"
 		},
 		"git": {
 			"changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
