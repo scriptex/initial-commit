@@ -3,6 +3,7 @@
 	"version": "1.0.4",
 	"description": "Starting template for repository",
 	"scripts": {
+		"test": "echo 'No tests found'",
 		"release-minor": "release-it minor --ci",
 		"release-patch": "release-it patch --ci",
 		"release-major": "release-it major --ci",
