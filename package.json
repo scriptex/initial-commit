@@ -1,6 +1,6 @@
 {
 	"name": "initial-commit",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Starting template for repository",
 	"scripts": {
 		"release-minor": "release-it minor --ci",
