@@ -1,6 +1,6 @@
 {
 	"name": "initial-commit",
-	"version": "1.0.4",
+	"version": "0.0.1",
 	"description": "Starting template for repository",
 	"scripts": {
 		"test": "echo 'No tests found'",
