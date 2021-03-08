@@ -1,9 +1,9 @@
-[![GitHub release](https://img.shields.io/github/release/scriptex/webpack-mpa.svg)](https://github.com/scriptex/webpack-mpa/releases/latest)
-[![GitHub issues](https://img.shields.io/github/issues/scriptex/webpack-mpa.svg)](https://github.com/scriptex/webpack-mpa/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/scriptex/webpack-mpa.svg)](https://github.com/scriptex/webpack-mpa/commits/master)
-[![Build Status](https://travis-ci.org/scriptex/webpack-mpa.svg?branch=master)](https://travis-ci.org/scriptex/webpack-mpa)
-[![npm](https://img.shields.io/npm/dt/webpack-mpa.svg)](https://www.npmjs.com/package/webpack-mpa)
-[![npm](https://img.shields.io/npm/v/webpack-mpa.svg)](https://www.npmjs.com/package/webpack-mpa)
+[![GitHub release](https://img.shields.io/github/release/scriptex/initial-commit.svg)](https://github.com/scriptex/initial-commit/releases/latest)
+[![GitHub issues](https://img.shields.io/github/issues/scriptex/initial-commit.svg)](https://github.com/scriptex/initial-commit/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/scriptex/initial-commit.svg)](https://github.com/scriptex/initial-commit/commits/master)
+[![Build Status](https://travis-ci.org/scriptex/initial-commit.svg?branch=master)](https://travis-ci.org/scriptex/initial-commit)
+[![npm](https://img.shields.io/npm/dt/initial-commit.svg)](https://www.npmjs.com/package/initial-commit)
+[![npm](https://img.shields.io/npm/v/initial-commit.svg)](https://www.npmjs.com/package/initial-commit)
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/initial-commit/README.md)](https://github.com/scriptex/initial-commit/)
 
 # Initial Commit
