@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/scriptex/webpack-mpa.svg?branch=master)](https://travis-ci.org/scriptex/webpack-mpa)
 [![npm](https://img.shields.io/npm/dt/webpack-mpa.svg)](https://www.npmjs.com/package/webpack-mpa)
 [![npm](https://img.shields.io/npm/v/webpack-mpa.svg)](https://www.npmjs.com/package/webpack-mpa)
-[![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/webpack-mpa/README.md)](https://github.com/scriptex/webpack-mpa/)
+[![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/initial-commit/README.md)](https://github.com/scriptex/initial-commit/)
 
 # Initial Commit
 
