@@ -1,4 +1,4 @@
-[![Logo][logo-img]][logo-url]
+<img src="https://raw.githubusercontent.com/scriptex/initial-commit/master/initial-commit.svg" alt="Initial commit Logo" />
 
 # Initial Commit [![npm][npm-version-img]][npm-version-url] [![MIT license][license-img]][license-url] [![Twitter][twitter-img]][twitter-url] [![Analytics][analytics-img]][analytics-url]
 
@@ -45,8 +45,6 @@ Use this when creating a NPM package, static website, or any other repository in
 
 [MIT][license-url]
 
-[logo-img]: https://raw.githubusercontent.com/scriptex/webpack-mpa/master/webpack-mpa.svg
-[logo-url]: https://github.com/scriptex/webpack-mpa
 [npm-version-img]: https://badgen.net/npm/v/webpack-mpa?icon=npm
 [npm-version-url]: https://www.npmjs.com/package/webpack-mpa
 [license-img]: https://badgen.net/npm/license/webpack-mpa
