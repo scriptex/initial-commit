@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/scriptex/initial-commit/master/initial-commit.svg" alt="Initial commit Logo" />
+<img src="https://raw.githubusercontent.com/scriptex/initial-commit/master/initial-commit.svg" alt="Initial commit Logo" width="200" />
 
 # Initial Commit [![npm][npm-version-img]][npm-version-url] [![MIT license][license-img]][license-url] [![Twitter][twitter-img]][twitter-url] [![Analytics][analytics-img]][analytics-url]
 
