@@ -2,6 +2,34 @@
 	"name": "initial-commit",
 	"version": "0.1.2",
 	"description": "Starting template for repository",
+	"keywords": [],
+	"homepage": "https://atanas.info/projects/initial-commit.html",
+	"bugs": {
+		"url": "https://github.com/scriptex/initial-commit/issues",
+		"email": "scriptex.bg@gmail.com"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Atanas Atanasov",
+		"email": "scriptex.bg@gmail.com",
+		"url": "https://atanas.info"
+	},
+	"funding": [
+		{
+			"type": "individual",
+			"url": "https://www.paypal.me/scriptex"
+		},
+		{
+			"type": "patreon",
+			"url": "https://www.patreon.com/atanas"
+		},
+		{
+			"type": "individual",
+			"url": "https://ko-fi.com/scriptex"
+		}
+	],
+	"main": "index.js",
+	"repository": "https://github.com/scriptex/initial-commit",
 	"scripts": {
 		"test": "echo 'No tests found'",
 		"release-minor": "release-it minor --ci",
@@ -9,20 +37,12 @@
 		"release-major": "release-it major --ci",
 		"changelog-local": "npx auto-changelog"
 	},
-	"keywords": [],
-	"author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
-	"repository": "https://github.com/scriptex/initial-commit",
-	"bugs": {
-		"url": "https://github.com/scriptex/initial-commit/issues",
-		"email": "scriptex.bg@gmail.com"
-	},
-	"license": "MIT",
 	"dependencies": {
 		"release-it": "14.5.1"
 	},
 	"devDependencies": {},
+	"peerDependencies": {},
 	"browserslist": [],
-	"main": "index.js",
 	"private": true,
 	"release-it": {
 		"hooks": {
