@@ -38,7 +38,7 @@
 		"changelog-local": "npx auto-changelog"
 	},
 	"dependencies": {
-		"release-it": "15.4.0"
+		"release-it": "15.4.1"
 	},
 	"devDependencies": {},
 	"peerDependencies": {},
