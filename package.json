@@ -1,35 +1,23 @@
 {
 	"name": "initial-commit",
-	"version": "0.1.2",
+	"version": "0.0.0",
 	"description": "Starting template for repository",
 	"keywords": [],
 	"homepage": "https://atanas.info/projects/initial-commit.html",
 	"bugs": {
 		"url": "https://github.com/scriptex/initial-commit/issues",
-		"email": "scriptex.bg@gmail.com"
+		"email": "hi@atanas.info"
 	},
 	"license": "MIT",
-	"author": {
-		"name": "Atanas Atanasov",
-		"email": "scriptex.bg@gmail.com",
-		"url": "https://atanas.info"
+	"author": "Atanas Atanasov <hi@atanas.info> (https://atanas.info)",
+	"funding": "https://github.com/sponsors/scriptex",
+	"main": "dist/index.js",
+	"style": "dist/index.css",
+	"types": "dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "github:scriptex/initial-commit"
 	},
-	"funding": [
-		{
-			"type": "individual",
-			"url": "https://www.paypal.me/scriptex"
-		},
-		{
-			"type": "patreon",
-			"url": "https://www.patreon.com/atanas"
-		},
-		{
-			"type": "individual",
-			"url": "https://ko-fi.com/scriptex"
-		}
-	],
-	"main": "index.js",
-	"repository": "https://github.com/scriptex/initial-commit",
 	"scripts": {
 		"test": "echo 'No tests found'",
 		"release-minor": "release-it minor --ci",
@@ -37,17 +25,18 @@
 		"release-major": "release-it major --ci",
 		"changelog-local": "npx auto-changelog"
 	},
-	"dependencies": {
+	"dependencies": {},
+	"devDependencies": {
 		"release-it": "15.4.1"
 	},
-	"devDependencies": {},
 	"peerDependencies": {},
 	"browserslist": [],
 	"private": true,
 	"release-it": {
 		"hooks": {
-			"after:release": "yarn changelog-local && git add CHANGELOG.md && git commit -m \"Update CHANGELOG.md with the latest changes\" && git push"
+			"after:release": "yarn changelog-local && git add CHANGELOG.md && git commit -m \"Update CHANGELOG.md with the latest changes\" --no-verify && git push"
 		},
+		"use": "pkg.version",
 		"git": {
 			"changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
 			"requireCleanWorkingDir": true,
@@ -57,9 +46,11 @@
 			"addUntrackedFiles": false,
 			"commit": true,
 			"commitMessage": "Release ${version}",
-			"commitArgs": [],
+			"commitArgs": [
+				"--no-verify"
+			],
 			"tag": true,
-			"tagName": null,
+			"tagName": "${version}",
 			"tagAnnotation": "Release ${version}",
 			"tagArgs": [],
 			"push": true,
@@ -68,36 +59,14 @@
 			],
 			"pushRepo": ""
 		},
-		"npm": {
-			"publish": false,
-			"publishPath": ".",
-			"tag": null,
-			"otp": null,
-			"ignoreVersion": false,
-			"skipChecks": false,
-			"timeout": 10
-		},
 		"github": {
-			"release": false,
-			"releaseName": "Release ${version}",
-			"releaseNotes": null,
-			"preRelease": false,
-			"draft": false,
-			"tokenRef": "GITHUB_TOKEN",
-			"assets": null,
-			"host": null,
-			"timeout": 0,
-			"proxy": null,
-			"skipChecks": false
+			"release": false
 		},
 		"gitlab": {
-			"release": false,
-			"releaseName": "Release ${version}",
-			"releaseNotes": null,
-			"tokenRef": "GITLAB_TOKEN",
-			"assets": null,
-			"origin": null,
-			"skipChecks": false
+			"release": false
+		},
+		"npm": {
+			"publish": false
 		}
 	}
 }
