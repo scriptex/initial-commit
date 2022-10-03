@@ -27,7 +27,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"release-it": "15.4.2"
+		"release-it": "15.4.3"
 	},
 	"peerDependencies": {},
 	"browserslist": [],
