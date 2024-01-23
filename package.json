@@ -27,7 +27,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"release-it": "17.0.1"
+		"release-it": "17.0.3"
 	},
 	"peerDependencies": {},
 	"browserslist": [],
